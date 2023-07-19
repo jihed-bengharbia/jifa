@@ -11,8 +11,9 @@
 # SPDX-License-Identifier: EPL-2.0
 #
 
-WORKER_NAME="worker-1.0"
-FRONTEND_NAME="frontend-1.0"
+ARTIFACTS_VERSION="0.2.0-SNAPSHOT"
+WORKER_NAME="worker-$ARTIFACTS_VERSION"
+FRONTEND_NAME="frontend-$ARTIFACTS_VERSION"
 JIFA_PROJECT="$(dirname $( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd ))"
 cd $JIFA_PROJECT/artifacts
 
