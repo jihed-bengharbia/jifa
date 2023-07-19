@@ -56,6 +56,13 @@ The frontend of Jifa uses Vue as the main framework.
   ```bash
   $ ./gradlew buildWorker
   ```
+- Error during build
+  ```
+  if you encounter this error:
+  Error: error:0308010C:digital envelope routines::unsupported
+  make sure thie env var is set
+  export NODE_OPTIONS=--openssl-legacy-provider
+  ```
 
 ### Run & Deploy
 
